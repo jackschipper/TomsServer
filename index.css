@@ -1,0 +1,148 @@
+html {
+    height:100%;
+    width: 100%;
+    background-color: lightslategray;
+    z-index: 1;
+}
+
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+footer {
+    position: absolute;
+    background-color: orange;
+
+}
+
+svg {
+    background-image: url(imgs/square.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lightgreen;
+    position: absolute;
+    left: 600px;
+    top: 500px;
+    width: 30px;
+    height: 30px;
+    
+}
+#coloreditor {
+    position: absolute;
+    background-color: orange;
+    top: 500px;
+    left: 1400px;
+}
+
+#logo {
+    position : absolute;
+    left: 1350px;
+    top: 100px;
+    height: 300px;
+    width: 320px;
+}
+
+#svgHolder {
+    height: 100%;
+    width: 100%;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.svgHolder {
+    height: 1000;
+    width: 1000;
+}
+
+svg:hover {
+    background-color: lightgray;
+}
+header {
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+
+
+
+#contextmenu {
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    position: absolute;
+    display: none;
+}
+
+#contextmenu td {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: default;
+}
+
+#contextmenu td:hover {
+    background-color: gray;
+}
+
+#butadd1 {
+    position: absolute;
+    left: 10px;
+    top: 360px;
+
+}
+
+#butadd2 {
+    position: absolute;
+    left: 10px;
+    top: 390px;
+
+}
+
+#butadd4 {
+    position: absolute;
+    left: 10px;
+    top: 420px;
+}
+
+#butadd6 {
+    position: absolute;
+    left: 10px;
+    top: 450px;
+}
+
+
+#bar1 {
+    height: 400px;
+    width: 460px;
+    position: relative;
+    top: 250px;
+    left: 780px;
+}
+
+#bar2 {
+    height: 400px;
+    width: 460px;
+    position: relative;
+    top: 250px;
+    left: 320px;
+}
+
+#lineDiag {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    height: 600px; 
+    transform: rotate(45deg);
+    
+}
