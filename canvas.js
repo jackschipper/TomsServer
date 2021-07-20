@@ -1,13 +1,25 @@
 
 
 
+//var test = require('mysql');
+//import{ db } from './server';
 
+
+// var sql = "CREATE TABLE MyTables(id int AUTO_INCREMENT, coordx VARCHAR(255), coordy VARCHAR(255), PRIMARY KEY(id))"
+// db.query(sql, err => {
+//     if (err) {
+//       console.log(err);
+//     }
+//     else {
+//       console.log("MyTables table created");
+//     }
+//   });
 
 
 //context menu
 
 $(document).ready(function() {
- 
+
 });
 
 var imageList = [];
@@ -46,7 +58,7 @@ function addTable6Top() {
     imageList.push(svg);
     counter = counter+1;
     return imageList;
-    
+
 }
 
 
@@ -75,11 +87,11 @@ function ctxMenu(elm) {
 
     console.log("in contextMenu table funtion");
     console.log("ID", elm);
-    
+
     if (elm == "deleting") {
         svg.ctx();
     }
-    
+
 
 }
 
@@ -88,8 +100,3 @@ function ctxMenu(elm) {
 
 //buttonFunc();
 //buttonFunc();
-
-
-
-
-
